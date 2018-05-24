@@ -35,9 +35,9 @@ This is the better option for people with limited memory left on their device. T
 
 This will open a new window with a black background (it might keep blinking if the computer is slow).  Wait until you can start typing
 
-4) Type `conda install jupyter` and hit `ENTER` key.  When asked do you want to proceed, type `y` and hit `ENTER`.
+4) Type `conda install jupyter matplotlib numpy pandas` and hit `ENTER` key.  When asked do you want to proceed, type `y` and hit `ENTER`.
 
-   This will take a few minutes to download the jupyter packages. 
+   This will take a few minutes to download the packages. 
    
     If you wish to install more packages in the future, you just need to use the `conda install <package name>` from your command line.
 
@@ -60,7 +60,7 @@ This will open a new window with a black background (it might keep blinking if t
 
 NOTE: If you see an error message, check to see that you are logged into the same user account that you used to install Anaconda or Miniconda, and that you have closed and re-opened the terminal window after installing it.
 
-4) Type `conda install jupyter numpy matplotlib` and hit `ENTER` key.  When asked do you want to proceed, type `y` and hit `ENTER`. If you wish to install more packages in the future, you just need to use this `conda install <package name>` from your command line.
+4) Type `conda install jupyter numpy matplotlib pandas` and hit `ENTER` key.  When asked do you want to proceed, type `y` and hit `ENTER`. If you wish to install more packages in the future, you just need to use this `conda install <package name>` from your command line.
 
 5) To view a list of packages and versions installed, or to confirm that a package has been added or removed, type `conda list`. Confirm that jupyter, numpy and matplotlib have been installed
 
@@ -80,7 +80,7 @@ You may also edit ~/.bash_profile and remove the miniconda directory from your P
 
 3) Close and re-open your terminal window. Type `conda --version` into the command terminal to test that miniconda has been installed. Conda should respond with the version number that you have installed, like: conda 3.11.0
 
-4) Type `conda install jupyter numpy matplotlib` and hit `ENTER` key.  When asked do you want to proceed, type `y` and hit `ENTER`. If you wish to install more packages in the future, you just need to use this `conda install <package name>` from your command line.
+4) Type `conda install jupyter numpy matplotlib pandas` and hit `ENTER` key.  When asked do you want to proceed, type `y` and hit `ENTER`. If you wish to install more packages in the future, you just need to use this `conda install <package name>` from your command line.
 
 5) To view a list of packages and versions installed, or to confirm that a package has been added or removed, type `conda list`. Confirm that jupyter, numpy and matplotlib have been installed
 
